@@ -14,8 +14,7 @@
 ActiveRecord::Schema.define(version: 20131017222026) do
 
   create_table "pins", force: true do |t|
-    t.string   "word"
-    t.string   "definition"
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
