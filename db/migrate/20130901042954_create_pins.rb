@@ -1,8 +1,8 @@
 class CreatePins < ActiveRecord::Migration
   def change
     create_table :pins do |t|
-      t.string :description
-
+      t.string :word
+      t.string :definition
       t.timestamps
     end
   end

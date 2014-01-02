@@ -4,7 +4,8 @@
 	<div class="col-md-offset-2 col-md-8">
 		<div class="panel panel-default">
 		<div class="panel-body">
-		<p><%= @pin.description %></p>
+		<h1><%= @pin.word %></h1>
+		<h3><%= @pin.definition %></h3>
 		<div class="panel-heading center">
 			<%= image_tag @pin.image.url(:medium) %>
 		</div>
